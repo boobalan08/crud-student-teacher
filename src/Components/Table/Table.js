@@ -33,6 +33,12 @@ const Table = ({ formList, setFormList }) => {
               >
                 Create
               </button>
+              <button
+              className="btn btn-primary create-btn"
+              onClick={() => navigate(`/main`)}
+            >
+             Back
+            </button>
             </div>
           </div>
         </div>
